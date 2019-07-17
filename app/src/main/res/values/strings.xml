@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TaskListApp</string>
+    <string name="add_new_todo_item_string">Adicionar Nova Tarefa</string>
+    <string name="title_string">Título</string>
+    <string name="time_string">Hora</string>
+    <string name="no_time_set_string">00:00:00</string>
+    <string name="choose_time_string">Escolha o Horário</string>
+    <string name="cancel_string">Cancelar</string>
+    <string name="submit_string">Submeter</string>
+    <string name="enter_title_string">Entre com o Título</string>
+</resources>

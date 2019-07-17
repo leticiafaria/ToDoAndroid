@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/RelativeLayout1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/titleViewLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/title_string"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@android:color/black" />
+
+<TextView
+    android:id="@+id/TimeViewLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/titleViewLabel"
+    android:layout_alignParentLeft="true"
+    android:text="@string/time_string"
+    android:textColor="#535050" />
+
+<TextView
+    android:id="@+id/statusViewLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/TimeViewLabel"
+    android:text="status: "
+    android:textColor="#535050"></TextView>
+
+<CheckBox
+    android:id="@+id/statusCheckBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/statusViewLabel"
+    android:layout_toRightOf="@+id/statusViewLabel"
+    android:buttonTint="#535050"
+    android:focusable="false">
+</CheckBox>
+
+<TextView
+    android:id="@+id/priorityView"
+    android:layout_width="50dip"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/statusViewLabel"
+    android:layout_alignParentRight="true"
+    android:textColor="#535050"></TextView>
+
+<TextView
+    android:id="@+id/PriorityLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/statusViewLabel"
+    android:layout_toLeftOf="@+id/priorityView"
+    android:text="Prioridade: "
+    android:textColor="#535050"></TextView>
+
+</RelativeLayout>
